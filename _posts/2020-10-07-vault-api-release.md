@@ -21,16 +21,16 @@ Manual reporting is a repetitive and time-consuming activity that requires const
 
 Indeed, the accounting team needs to be able to effectively review operations to prepare tax documents. Operation teams and treasurers, on the other hand, need timely access to data to support decision making, and the compliance team needs to keep an independent view on operations.
 
-
+<br/>
 <center><img src="/assets/vault_api_release/multi_teams.png" style="width:650px;"></center>
-
+<br/>
 
 By leveraging the secure governance of the Ledger Vault, the Transaction APIs allow firms to automatically initiate and approve transactions. More advanced integrations give you the tools to manage even the most complex operational flows, combining the ease of use of the APIs while enforcing manual reviews where necessary.
 
-
+<br/>
 <center><img src="/assets/vault_api_release/governance.png" style="width:650px;"></center>
-<center>_Example of a governance setup with both human and automated reviews_</center>
-
+_<center>Example of a governance setup with both human and automated reviews</center>_
+<br/>
 
 Thanks to the broad governance capabilities of the Vault, you can also create different tiers of wallets&mdash;each of which is subject to a different set of governance rules. For example, the majority of assets could be held in a main wallet that is restricted to only transacting with a treasury wallet. The treasury wallet then enforces the governance rules described in the previous example. This layered setup increases the security and oversight of the overall transaction process, making sure the proper checks and balances are enforced.
 
@@ -42,18 +42,18 @@ One of the core ideas of the Vault is that our users have complete control over 
 
 Maintaining this guarantee was one of our key concerns while building the Ledger Vault APIs, which led us to design an architecture based on a client-side agent. We call this agent the Ledger Authentication Module, or LAM for short.
 
-
+<br/>
 <center><img src="/assets/vault_api_release/lam_architecture.png" style="width:650px;"></center>
-<center>_LAM is your gateway to securely interact with the Vault_</center>
-
+_<center>LAM is your gateway to securely interact with the Vault</center>_
+<br/>
 
 By residing on your infrastructure rather than Ledger's, the LAM is able to securely isolate the secrets that will be used to authenticate and communicate with your Vault. It does this without sharing them with any third party (including Ledger), thus ensuring their integrity is never compromised. You, and only you, can operate your Vault.
 
 The initial authentication between the LAM and the Vault is handled through standard user tokens. Further communication with the Vault HSM relies on an [ECDH channel](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman), that is secured by the client-generated key stored on the LAM. This ensures that critical messages between the LAM and the HSM are encrypted and are immune to man-in-the-middle attacks. All authentications and cryptographic mechanisms are automatically handled by the LAM.
 
-
+<br/>
 <center><img src="/assets/vault_api_release/lam_request.png" style="width:650px;"></center>
-
+<br/>
 
 With a single LAM instance, you will be able to create and control as many API Operators as you need to automate your reporting and transaction flows. Just like any Vault Operator, they will need to be [invited to the platform by Vault Administrators](https://help.vault.ledger.com/Content/overview/getstarted.html), following the same registration process. Access to your funds is similarly restricted and will depend on the [transaction rules you set on each one of your accounts](https://help.vault.ledger.com/Content/accounts/acc_create.html). Using strong whitelists and transfer limits will allow you to take full advantage of the APIs automation power while keeping your funds secure.
 
