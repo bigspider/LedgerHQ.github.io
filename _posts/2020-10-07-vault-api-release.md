@@ -63,7 +63,7 @@ In short, API access is still very much in the hands of those you trust to admin
 
 Besides holding onto user secrets, the LAM also fulfills the essential role of hiding the complexity of the system. It allows exposing an interface that is both coherent and easy to use, without compromising the Vault's state-of-the-art security measures.
 
-This interface is described in our [standard Open API specification](https://developers.ledger.com/spec.html) that provides details on all the endpoints and objects that callers will interact with. We also expose examples covering the most common use cases in different languages, which will help get you started when integrating the Vault APIs in your internal workflows.
+This interface is described in our [standard Open API specification](https://vaultplatform.ledger.com/api-doc) that provides details on all the endpoints and objects that callers will interact with. We also expose examples covering the most common use cases in different languages, which will help get you started when integrating the Vault APIs in your internal workflows.
 
 ## What's next?
 
