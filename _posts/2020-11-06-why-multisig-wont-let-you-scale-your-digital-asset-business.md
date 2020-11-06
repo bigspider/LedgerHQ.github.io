@@ -2,7 +2,7 @@
 layout: post
 title: why multisig won't let you scale your digital asset business
 author: Vincent Debast
-summary: In this article we will look into how Multisig affects the scalability and efficiency of firms that manage digital assets, and propose Ledger Vault as a superior alternative.
+summary: How Multisig affects the scalability and efficiency of firms that manage digital assets, and why Ledger Vault is a superior alternative.
 featured-img: multisig
 categories: Vault
 ---
