@@ -39,7 +39,7 @@ For instance, if 3 parties (Alice, Bob, Carol) are required to authorize two tra
 
 In the example above, full sequential transaction processing is described. This would typically be the case for account-based blockchains. For UTXO-based blockchain, assuming UTXOs are properly managed, some parallelism is possible but the final approval must follow the creation order...still a major inconvenience.
 
-<center><img src="/assets/multisif/sequential-txs.png" style="width:800px;"></center>
+<center><img src="/assets/multisig/sequential-txs.png" style="width:800px;"></center>
 
 This situation does not adapt itself well to operators being split across multiple companies as they'll need to coordinate the creation and broadcast of all the transactions. In practice, to perform multiple operations it is best for all parties to be connected simultaneously to the platform to avoid dragging the transaction creation and approval process over many hours or days.
 
@@ -83,7 +83,7 @@ The Ledger Vault decouples the transaction approval process from the transaction
 
 The change in paradigm from [construction > approval > signature > broadcasting] to [request creation > request approval > transaction creation and signature > broadcasting] enables much more flexibility in daily operations. Dependencies between operations are managed by the platform and no longer by humans. Worldwide, asynchronous, time-efficient operations are made possible.
 
-<center><img src="/assets/multisif/sequential-txs.png" style="width:800px;"></center>
+<center><img src="/assets/multisig/sequential-txs.png" style="width:800px;"></center>
 
 ### A unified and blockchain agnostic security model
 
@@ -117,7 +117,7 @@ A full comparison of the Ledger Vault solution with Multisig is shown below:
 
 |                                 | Multisig                                                     | Ledger Vault                                                 |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Compatibility**               | Different implementation on different blockchains. Requires auditing multiple mechanisms and adapting business processes. | Protocol agnostic  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| **Compatibility**               | Different implementation on different blockchains. Requires auditing multiple mechanisms and adapting business processes. | Protocol agnostic  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | **Flexibility**                 | Low support for complex Multisignature schemes. Most used schemes are 2 of 3. | No limitations to approval scheme quorums                    |
 | **Change**                      | Complicated: change address                                  | Easy & convenient                                            |
 | **Governance**                  | Only m-of-n                                                  | All the governance is secure: m-of-n and thresholds and whitelists |
