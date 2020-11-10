@@ -13,7 +13,7 @@ Businesses that store digital assets and process regular transactions are often 
 
 In this article we will look into how Multisig affects the scalability and efficiency of firms that manage digital assets, and propose Ledger Vault as a superior alternative.
 
-This comparison is specific to on-chain Multisig which should not be confused with MPC and other multisignature mechanisms available. On-chain Multisig is also known also as P2SH Multisig or PSBT on the Bitcoin blockchain. Similar implementations exist across the different blockchains, this article leverages the specific case of Bitcoin and Ethereum to highlight the pitfalls of managing wallet governance directly on chain. 
+This comparison is specific to on-chain Multisig which should not be confused with MPC and other multisignature mechanisms available. On-chain Multisig is also known as P2SH Multisig or PSBT on the Bitcoin blockchain. Similar implementations exist across the different blockchains, this article leverages the specific case of Bitcoin and Ethereum to highlight the pitfalls of managing wallet governance directly on chain. 
 
 ### Cumbersome operations
 
