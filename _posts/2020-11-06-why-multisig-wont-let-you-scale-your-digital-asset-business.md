@@ -83,7 +83,7 @@ The Ledger Vault decouples the transaction approval process from the transaction
 
 The change in paradigm from [construction > approval > signature > broadcasting] to [request creation > request approval > transaction creation and signature > broadcasting] enables much more flexibility in daily operations. Dependencies between operations are managed by the platform and no longer by humans. Worldwide, asynchronous, time-efficient operations are made possible.
 
-<center><img src="/assets/multisig/independent-txs.png" style="width:600px;"></center>
+<center><img src="/assets/multisig/independent-txs.png" style="width:500px;"></center>
 
 ### A unified and blockchain agnostic security model
 
