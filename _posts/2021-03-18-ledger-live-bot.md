@@ -206,16 +206,19 @@ const dogecoinSpec: AppSpec<*> = {
 
 ## The Bot Logic
 
-So now that we have an API to control a software version of our device, and the spec files, how does the Bot run.
+So now that we have an API to control a software version of our device, and the spec files, how does the bot work?  
+When we run the tests (running inside Jest runner currently), we will spawn a simulator with the metadata from the \[coin\]Spec, which gives us a firmware version and an app version for the family/currency we want to test. Then the bot processes the spec and creates an list of possible mutations for each account available. Then it will randomly choose one of the mutations from the list, and will try to play it  (send, delegate...). The bot then tried to wait until the transaction just created appears in the blockchain, and tries to do the assertion then.
+We decided to take this approach so the bot will behave a bit more "human-like", shuffling between the different types of operations. We know we do not cover _each_ case possible on each run. This is a choice we made as we decided to look into those tests with a Long Tail philosophy (it's throughout many runs that we eventually cover all possible scenarios).
 
-=> Cronjob on Github Actions
-=> Randomly choosed between mutation
-=> Execute only one operation per run per account
-=> Report on PRs and Commits
+Since the bot is just a script that gets executed in a test runner, we could easily automate its runs with Github Action (running as a cronjob). Doing so gives us the opportunity to comment on Pull Requests and Commits automatically, posting reports of each of its run.
+It's a great tool to understand when things go wrong for us. Is it a problem with the blockchain? With the device version? Maybe the app version installed on the device? Or something else entirely?  
+No matter what the root cause is, the Ledger Live Bot is a great source to understand our ecosystem, and definitely has been a great deal of support for our QA and engineering team this past year.
+ 
 
 ## What's next?
 
-Automating swap?
+So what is next? Now that Ledger Live Bot is a solid project with good foundations, we are looking at what's next.  
+One of the great features on Ledger Live is the ability to swap between cryptocurrencies. Can we replicate that with the bot? Can the bot be used as an automated transaction tool? Can we give it rules to act on its own? Can it become a trading bot....
 
 
 {% include signatures/gre.html %}  
