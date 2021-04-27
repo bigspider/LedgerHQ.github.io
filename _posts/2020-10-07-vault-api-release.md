@@ -89,7 +89,7 @@ We are convinced that both financial institutions and the digital asset industry
 
 #### Resources:
 
--   [API documentation](http://vaultplatform.ledger.com/api-doc)
+-   [API documentation](https://enterprise.ledger.com/products/vault/api-doc/)
 
 -   [Help Center and onboarding documentation](https://help.vault.ledger.com/Content/api/api_overview.html)
 
