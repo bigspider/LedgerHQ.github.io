@@ -34,7 +34,7 @@ Securing the full key management lifecycle is not easy and MPC is the latest add
 Multi-party computation refers to specific cryptography algorithms enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. For example, it is possible to compute the average employee salary without individual employees knowing the salary of others (cf. [Inpher Intro (1)](#1)).
 
   
-Applying this property to secure digital assets, MPC can be used to create signatures split over several users, where the signature process does not require signers to disclose their key others. The benefits are straightforward: without the possibility to compromise a single endpoint, an attacker would need to target several instances, coordinating many attacks together. Because instances have different security setup, this significantly increases the difficulty of the potential attack.
+Applying this property to secure digital assets, MPC can be used to create signatures split over several users, where the signature process does not require signers to disclose their key to others. The benefits are straightforward: without the possibility to compromise a single endpoint, an attacker would need to target several instances, coordinating many attacks together. Because instances have different security setup, this significantly increases the difficulty of the potential attack.
 
 
 When applying MPC, the first step is the wallet creation. Each user generates a part of the key with which transactions are signed from a wallet. At no stage is the key generated in full. This is done by implementing an MPC-version of the key derivation algorithms for cryptocurrencies (BIP-32).
