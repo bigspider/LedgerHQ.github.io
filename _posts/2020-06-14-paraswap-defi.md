@@ -123,11 +123,11 @@ For a browser to allow a page to embed another page’s content when they are ho
 To allow Ledger Live to embed your DApp, you might need to edit your server’s configuration and edit the Content-Security-Policy header.
 
 - To allow any websites to embed your page:
-Content-Security-Policy: frame-ancestors '*';
+`Content-Security-Policy: frame-ancestors '*';`
 
 - To allow only Ledger DApp browser to embed your page:
-Content-Security-Policy: frame-ancestors 
-[https://platform-apps.ledger.com;](https://platform-apps.ledger.com;)
+`Content-Security-Policy: frame-ancestors `
+`[https://platform-apps.ledger.com;](https://platform-apps.ledger.com;)`
 
 ## Adding the “what you see is what you sign” property
 
