@@ -23,7 +23,7 @@ Ledger Live is already able to securely manage ETH and ERC20 tokens on the Ether
 <br/>
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/paraswap_in_ledger_live.png">
+    <img src="{{ site.baseurl }}/assets/paraswap/paraswap_in_ledger_live.png">
     <br/><br/>
     <figcaption>A screenshot of paraswap.</figcaption>
   </figure>
@@ -43,7 +43,7 @@ Our solution is to integrate DApps inside an iframe to benefit from the integrat
 <br />
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/dapps_browser_architecture.png">
+    <img src="{{ site.baseurl }}/assets/paraswap/dapps_browser_architecture.png">
     <br/><br/>
     <figcaption>DApps Browser Architecture.</figcaption>
   </figure>
@@ -65,7 +65,7 @@ Most DeFi applications are running on top of Ethereum blockchain and use Ethereu
 <br />
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/smart_contracts_parameters.png">
+    <img src="{{ site.baseurl }}/assets/paraswap/smart_contracts_parameters.png">
     <br/><br/>
     <figcaption>Smart contract parameters</figcaption>
   </figure>
@@ -77,7 +77,7 @@ Both Ledger Nano S and Nano X are already able to verify standard fields in Ethe
 <br />
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/random_contract_call.gif">
+    <img src="{{ site.baseurl }}/assets/paraswap/random_contract_call.gif">
     <br/><br/>
     <figcaption>A random contract call, it is impossible to verify what side effects it will have</figcaption>
   </figure>
@@ -89,7 +89,7 @@ With the introduction of the DApp browser in Ledger Live, we also give the Nano 
 <br />
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/paraswap_contract_call.gif">
+    <img src="{{ site.baseurl }}/assets/paraswap/paraswap_contract_call.gif">
     <br/><br/>
     <figcaption>A ParaSwap contract call, we can easily verify swap details</figcaption>
   </figure>
@@ -103,7 +103,7 @@ To function properly, decentralized applications first need to be connected to a
 <br />
 <center>
   <figure class="image">
-    <img src="{{ site.baseurl }}/assets/defi/list_dapp_providers.png">
+    <img src="{{ site.baseurl }}/assets/paraswap/list_dapp_providers.png">
     <br/><br/>
     <figcaption>A list of available providers on a DApp</figcaption>
   </figure>
