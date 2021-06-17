@@ -127,7 +127,7 @@ To allow Ledger Live to embed your DApp, you might need to edit your server’s 
 
 - To allow only Ledger DApp browser to embed your page:
 `Content-Security-Policy: frame-ancestors `
-`[https://platform-apps.ledger.com;](https://platform-apps.ledger.com;)`
+`https://platform-apps.ledger.com`
 
 ## Adding the “what you see is what you sign” property
 
@@ -148,3 +148,4 @@ Stay tuned with us as we strive to create a smooth user experience gathering all
 
 
 {% include signatures/pierre.html %}
+{% include signatures/hugo.html %}
