@@ -148,3 +148,4 @@ Stay tuned with us as we strive to create a smooth user experience gathering all
 
 
 {% include signatures/pierre.html %}
+{% include signatures/hugo.html %}
