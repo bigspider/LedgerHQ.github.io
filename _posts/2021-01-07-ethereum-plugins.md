@@ -63,14 +63,14 @@ This schema might seem a little bit complex at first sight, but there's actually
 - Preparing some buffers to display an approval UI to the user
 - etc.
 
-Hence, a plugin is often a [single file](https://github.com/LedgerHQ/app-ethereum/blob/eth2_deposit/src_plugins/compound/compound_plugin.c)!
+Hence, a plugin is often really easy to write!
 
 ## 🦄 Build your own Ethereum plugin
 
-To implement a plugin for your smart contract, you can start by forking [plugin-boilerplate](https://github.com/app-plugin-boilerplate). A documentation of all the hooks and their role is available [there](https://github.com/LedgerHQ/app-ethereum/blob/eth2_deposit/doc/ethapp_plugins.asc), and you can also get inspiration from the plugins already available on [github](https://github.com/LedgerHQ/).
+To implement a plugin for your smart contract, you can start by forking [plugin-boilerplate](https://github.com/app-plugin-boilerplate). A documentation of all the hooks and their role is available [there](https://github.com/LedgerHQ/app-ethereum/blob/master/doc/ethapp_plugins.asc), and you can also get inspiration from the [ParaSwap plugin](https://github.com/LedgerHQ/app-plugin-paraswap).
 
-Having a Ledger device to test your code is not even necessary thanks to [speculos](https://blog.ledger.com/speculos/), the ledger emulator.
-If you're new to the Ledger development community, you can also find the basics of the BOLOS platform on [readthedocs](https://ledger.readthedocs.io/en/latest/userspace/getting_started.html). You can also reach to us on our developper Slack by requesting access to it [here](https://support.ledger.com/hc/en-us/requests/new)
+Quick code iteration can be done via our device emulator, [speculos](https://blog.ledger.com/speculos/)!
+If you're new to the Ledger development community, you can also find the basics of the BOLOS platform on [readthedocs](https://developers.ledger.com/). You can also reach to us on our developper Slack by requesting access to it [here](https://support.ledger.com/hc/en-us/requests/new)
 
 ## Conclusion
 
