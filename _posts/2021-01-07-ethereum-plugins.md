@@ -38,7 +38,7 @@ Adding full support for any given smart contract available in the wild used to b
 
 With the release of `Ethereum app v1.8.5`, we are laying the foundation to make adding support for a full smart contract on Ledger products much easier and scalable.
 To do so, the Ethereum transaction parser is now hookable by a new kind of applications: plugins.
-Plugins are small applications dedicated to parsing custom transaction fields and building a custom display to show on screen to the user. They can are hypra-lightweight apps that can be installed on the deivce, just like any other app. Users only need to install the plugins for the smart contracts they plan to interact with. This makes supporting smart-contracts much more scalable: where previously the ethereum app would have been bloated with all sorts of different smart-contracts support, now the code logic for every smart contract is stored on different plugins, and users simply install what they need!
+Plugins are small applications dedicated to parsing custom transaction fields and building a custom display to show on screen to the user. They are lightweight apps that can be installed on the deivce, just like any other app. Users only need to install the plugins for the smart contracts they plan to interact with. This makes supporting smart-contracts much more scalable: where previously the ethereum app would have been bloated with all sorts of different smart-contracts support, now the code logic for every smart contract is stored on different plugins, and users simply install what they need!
 
 <center>
 <figure class="image">
@@ -75,6 +75,6 @@ If you're new to the Ledger development community, you can also find the basics 
 ## Conclusion
 
 Ethereum plugins are a new and powerful yet simple way to improve the security and usability of smart contracts using Ledger hardware wallets, and we hope you'll enjoy them, and eventually that some of you will even try to build their own.
-We are commited to improving and maintaining a fertile ground plugins, so Ethereum DApps can continue to grow and thrive, securely.
+We are commited to improving and maintaining a fertile ground for plugins, so Ethereum DApps can continue to securely grow and thrive.
 
 {% include signatures/jean.html %}
