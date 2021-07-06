@@ -13,11 +13,11 @@ _A new frontier for the security of human interactions with smart contracts_
 
 ## Smart Contracts?
 
-Unlike with Bitcoin, where most transactions are simple value transfers from an address to another, Ethereum transactions often contains interactions with `Smart Contracts`, which are programs running on its blockchain. Every time someone lends coins on [`Compound`](https://compound.finance/), swaps some tokens on [`Paraswap`](https://paraswap.io/) or pets his [`Cryptokitties`](https://www.cryptokitties.co/), smart contract transactions are involved. Supporting these use cases on hardware wallets is essential to sustain the growth of the Ethereum ecosystem without making compromises on its security.
+Unlike with Bitcoin, where most transactions are simple value transfers from one address to another, Ethereum transactions often contains interactions with `Smart Contracts`, which are programs running on its blockchain. Every time someone lends coins on [`Compound`](https://compound.finance/), swaps some tokens on [`Paraswap`](https://paraswap.io/) or pets his [`Cryptokitties`](https://www.cryptokitties.co/), smart contract transactions are involved. Supporting these use cases on hardware wallets is essential to sustain the growth of the Ethereum ecosystem without making compromise on its security.
 
 ## Previous state of smart contract support
 
-Until now, the device could not provide users with secure display when interacting with smart contracts. One could interact with any smart contract, but the device would just warn the user that "some data was present", and the user would have to blindly accept to sign the data, without being able to double-check that the data was valid.
+Until now, the device could not provide users with a secure display when interacting with smart contracts. One could interact with any smart contract, but the device would just warn the user that "some data was present", and the user would have to blindly accept to sign the data, without being able to double-check the validity of said data.
 
 <center>
 <figure class="image">
@@ -38,7 +38,7 @@ Adding full support for any given smart contract available in the wild used to b
 
 With the release of `Ethereum app v1.8.5`, we are laying the foundation to make adding support for a full smart contract on Ledger products much easier and scalable.
 To do so, the Ethereum transaction parser is now hookable by a new kind of applications: plugins.
-Plugins are small applications dedicated to parsing custom transaction fields and building a custom display to show on screen to the user. They are lightweight apps that can be installed on the deivce, just like any other app. Users only need to install the plugins for the smart contracts they plan to interact with. This makes supporting smart-contracts much more scalable: where previously the ethereum app would have been bloated with all sorts of different smart-contracts support, now the code logic for every smart contract is stored on different plugins, and users simply install what they need!
+Plugins are small applications dedicated to parsing custom transaction fields and building a custom display to show on screen to the user. They are lightweight apps that can be installed on the device, just like any other app. Users only need to install the plugins for the smart contracts they plan to interact with. This makes supporting smart contracts much more scalable: where previously the ethereum app would have been bloated with all sorts of different smart contracts support, now the code logic for every smart contract is stored on different plugins, and users simply install what they need!
 
 <center>
 <figure class="image">
