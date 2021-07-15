@@ -36,7 +36,7 @@ Adding full support for any given smart contract available in the wild used to b
 
 ## Introducing Ethereum plugins:
 
-With the release of `Ethereum app v1.8.5`, we are laying the foundation to make adding support for a full smart contract on Ledger products much easier and scalable.
+With the release of `Ethereum app v1.8.5`, we are laying the foundation to make support addition for a full smart contract on Ledger products much easier and scalable.
 To do so, the Ethereum transaction parser is now hookable by a new kind of applications: plugins.
 Plugins are small applications dedicated to parsing custom transaction fields and building a custom display to show on screen to the user. They are lightweight apps that can be installed on the device, just like any other app. Users only need to install the plugins for the smart contracts they plan to interact with. This makes supporting smart contracts much more scalable: where previously the ethereum app would have been bloated with all sorts of different smart contracts support, now the code logic for every smart contract is stored on different plugins, and users simply install what they need!
 
