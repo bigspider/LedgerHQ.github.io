@@ -17,7 +17,7 @@ Unlike with Bitcoin, where most transactions are simple value transfers from one
 
 ## Previous state of smart contract support
 
-Until now, the device could not provide users with a secure display when interacting with smart contracts. One could interact with any smart contract, but the device would just warn the user that "some data was present", and the user would have to blindly accept to sign the data, without being able to double-check the validity of said data.
+Until now, the device could not provide users with a secure display when interacting with smart contracts. One could interact with any smart contract, but the device would just warn the user that "some data was present", and the user would have to blindly accept signing the data, without being able to double-check the validity of said data.
 
 <center>
 <figure class="image">
