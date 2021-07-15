@@ -13,7 +13,7 @@ _A new frontier for the security of human interactions with smart contracts_
 
 ## Smart Contracts?
 
-Unlike with Bitcoin, where most transactions are simple value transfers from one address to another, Ethereum transactions often contains interactions with `Smart Contracts`, which are programs running on its blockchain. Every time someone lends coins on [`Compound`](https://compound.finance/), swaps some tokens on [`Paraswap`](https://paraswap.io/) or pets his [`Cryptokitties`](https://www.cryptokitties.co/), smart contract transactions are involved. Supporting these use cases on hardware wallets is essential to sustain the growth of the Ethereum ecosystem without making compromise on its security.
+Unlike with Bitcoin, where most transactions are simple value transfers from one address to another, Ethereum transactions often contain interactions with `Smart Contracts`, which are programs running on its blockchain. Every time someone lends coins on [`Compound`](https://compound.finance/), swaps some tokens on [`Paraswap`](https://paraswap.io/) or pets his [`Cryptokitties`](https://www.cryptokitties.co/), smart contract transactions are involved. Supporting these use cases on hardware wallets is essential to sustain the growth of the Ethereum ecosystem without making a compromise on its security.
 
 ## Previous state of smart contract support
 
