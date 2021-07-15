@@ -75,6 +75,6 @@ If you're new to the Ledger development community, you can also find the basics 
 ## Conclusion
 
 Ethereum plugins are a new and powerful yet simple way to improve the security and usability of smart contracts using Ledger hardware wallets, and we hope you'll enjoy them, and eventually that some of you will even try to build their own.
-We are commited to improving and maintaining a fertile ground for plugins, so Ethereum DApps can continue to securely grow and thrive.
+We are committed to improving and maintaining a fertile ground for plugins, so Ethereum DApps can continue to securely grow and thrive.
 
 {% include signatures/jean.html %}
