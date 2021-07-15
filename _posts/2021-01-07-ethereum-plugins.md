@@ -32,7 +32,7 @@ Until now, the device could not provide users with a secure display when interac
 Adding full support for any given smart contract available in the wild used to be a hard task for many reasons:
 
 - It required too much knowledge of the Ethereum app’s codebase for third party developers to be interested.
-- Even if they did, adding full support for many smart contracts would not scale, both in term of flash space used and technical debt added to the application parsing logic.
+- Even if they did, adding full support for many smart contracts would not scale, both in terms of flash space used and technical debt added to the application parsing logic.
 
 ## Introducing Ethereum plugins:
 
