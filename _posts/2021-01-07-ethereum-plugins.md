@@ -52,7 +52,7 @@ There are only a few plugins available at the time of this writing ([`Paraswap`]
 
 ## Case overview: the Compound plugin
 
-Compound is a well known set of DeFi smart contracts allowing people to lend and borrow cryptocurrencies in a trustless fashion on the Ethereum blockchain. We recently added support for Compound lending operation and we’re going to present a schematized overview of the flow of a lending transaction processing assisted by a plugin.
+Compound is a well known set of DeFi smart contracts allowing people to lend and borrow cryptocurrencies in a trustless fashion on the Ethereum blockchain. We recently added support for Compound lending operation and we’re going to present a schematized overview of the flow of a lending transaction process assisted by a plugin.
 
 ![compound plugin interactions schema](../assets/eth_plugins/compound-plugin-interactions-schema.png "Overview of a lending transaction processng using a plugin")
 
