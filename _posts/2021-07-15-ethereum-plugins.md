@@ -67,7 +67,7 @@ Hence, a plugin is often really easy to write!
 
 ## 🦄 Build your own Ethereum plugin
 
-To implement a plugin for your smart contract, you can start by forking [plugin-boilerplate](https://github.com/app-plugin-boilerplate). A documentation of all the hooks and their role is available [there](https://github.com/LedgerHQ/app-ethereum/blob/master/doc/ethapp_plugins.asc), and you can also get inspiration from the [ParaSwap plugin](https://github.com/LedgerHQ/app-plugin-paraswap).
+To implement a plugin for your smart contract, you can start by forking [plugin-boilerplate](https://github.com/LedgerHQ/app-plugin-boilerplate). A documentation of all the hooks and their role is available [there](https://github.com/LedgerHQ/app-ethereum/blob/master/doc/ethapp_plugins.asc), and you can also get inspiration from the [ParaSwap plugin](https://github.com/LedgerHQ/app-plugin-paraswap).
 
 Quick code iteration can be done via our device emulator, [speculos](https://github.com/LedgerHQ/speculos/)!
 If you're new to the Ledger development community, you can also find the basics of the BOLOS platform on [readthedocs](https://developers.ledger.com/). You can also reach to us on our developper Slack by requesting access to it [here](https://support.ledger.com/hc/en-us/requests/new)
