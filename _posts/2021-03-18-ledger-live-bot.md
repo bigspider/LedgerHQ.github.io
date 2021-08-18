@@ -137,7 +137,7 @@ const acceptTransaction: DeviceAction<Transaction, *> = deviceActionFlow({
 
 ## The coin spec, or the backbone of our tests
 
-To make our bot _smart_ in its decision making process, we rely on `specs` files. A **coin spec** defines all possible mutations on the blockchain (supported by Ledger Live) as well as the expectation after the mutation has been broadcasted. This is where things get fun, as we said earlier, there is no way to "replay" scenarios on the blockchain. To compensate for these limitations, we came up with a new way, focusing on the _account state_ before and after the mutations.
+To make our bot _smart_ in its decision making process, we rely on `specs` files. A **coin spec** defines all possible mutations on the blockchain (supported by Ledger Live) as well as the expectation after the mutation has been broadcasted. This is where things get fun: as we said earlier, there is no way to "replay" scenarios on the blockchain. To compensate for these limitations, we came up with a new way, focusing on the _account state_ before and after the mutations.
 
 Here is an example of a coin spec:
 
