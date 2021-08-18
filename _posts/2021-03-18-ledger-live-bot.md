@@ -14,7 +14,7 @@ We went from 3 to 9 families of supported coins, and shipped features like [Secu
 As the list of features and new coins supported in Ledger Live grew, we quickly realized that our testing flow would not scale. Previously, our QA Team needed to test all the different features for each coin manually. With both increasing in number, the process was becoming longer and more tedious. That is when we decided to tackle this problem with a new approach: __automate end-to-end testing for each family of coins alongside its respective features__!
 
 Let's rewind a bit and have a look at the context here. We are talking about end-to-end testing on different blockchains. Blockchains are _immutable_ by design. Once an operation has been broadcasted, there is no way to come back to a _previous_ state of the blockchain. This means we would not be able to replay any test case or scenario.  
-At some point we thought about _testnet blockchains_, but it still might not yield the same result as a _mainnet_. 
+At some point we considered _testnet blockchains_, but it still might not yield the same result as a _mainnet_. 
 
 So, with the context and the real life conditions in mind, we decided to create the **Ledger Live Bot**.
 
