@@ -87,7 +87,7 @@ function deviceActionAcceptBitcoin({
 }
 ```
 
-Although functionning at first, we reworked it so we could also make assertions on what the device displays.
+Even though it was functional, we reworked it so we could also make assertions on what the device displays.
 
 ```js
 const acceptTransaction: DeviceAction<Transaction, *> = deviceActionFlow({
