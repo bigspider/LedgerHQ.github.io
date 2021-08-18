@@ -10,7 +10,7 @@ categories: Tech
 # Ledger Live Bot
 
 Last year has been a great scaling period for the Ledger Live software.
-We went from 3 to 9 families of coins supported, shipped features like [Secure Swap](https://blog.ledger.com/secure-swap/), Staking _(Tezos delegation, Tron votes, Cosmos validation, Algorand staking and very recently, Polkadot)_ ...  
+We went from 3 to 9 families of supported coins, and shipped features like [Secure Swap](https://blog.ledger.com/secure-swap/) or Staking _(Tezos delegation, Tron votes, Cosmos validation, Algorand staking and very recently, Polkadot)_ ...  
 As the list of features and new coins supported in Ledger Live grew, we quickly realized that our testing flow would not scale. Previously, our QA Team needed to test all the different features for each coin manually. With both increasing in number, the process was becoming longer and more tedious. That is when we decided to tackle this problem with a new approach: __automate end-to-end testing for each family of coins alongside its respective features__!
 
 Let's rewind a bit and see the context here. We are talking about end-to-end testing on different blockchains. Blockchains are _immutable_ by design. Once an operation has been broadcasted, there is no way to come back to a _previous_ state of the blockchain. This mean we would not be able to replay any test case or scenario.  
