@@ -16,7 +16,7 @@ As the list of features and new coins supported in Ledger Live grew, we quickly 
 Let's rewind a bit and have a look at the context here. We are talking about end-to-end testing on different blockchains. Blockchains are _immutable_ by design. Once an operation has been broadcasted, there is no way to come back to a _previous_ state of the blockchain. This means we would not be able to replay any test case or scenario.  
 At some point we thought about _testnet blockchains_, but it still might not yield the same result as a _mainnet_. 
 
-So, with the context in mind and the expectations of real life conditions, that's when we decided to create the **Ledger Live Bot**.
+So, with the context and the real life conditions in mind, we decided to create the **Ledger Live Bot**.
 
 ## What is Ledger Live Bot?
 
