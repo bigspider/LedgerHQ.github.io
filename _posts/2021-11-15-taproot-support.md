@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Update - Taproot Support in the Ledger Stack
+title: Why Taproot Matters for Bitcoin and Ledger's Future?
 author: Charles Guillemet and Salvatore Ingala
 summary: Bitcoin Taproot is live and Ledger supports it already
 featured-img: taproot-logo
@@ -160,15 +160,26 @@ As soon as you consent, the Bitcoin app will request the signature to the Ledger
 
 ## Complete rework of our Bitcoin support
 Throughout 2021, we have reworked all these key components:
-Explorers have been upgraded to handle the ever growing load they encounter
-We reworked our implementation from a C++ stack to JavaScript to rely more on the ecosystem. You can review our [GitHub here](https://github.com/LedgerHQ/ledger-live-common/tree/master/src/families/bitcoin)
-The [Bitcoin app](https://github.com/LedgerHQ/app-bitcoin-new) has been reworked in order to support new use cases including Taproot. A dedicated blogpost will be done soon.
+
+- Explorers have been upgraded to handle the ever growing load they encounter
+- We reworked our implementation from a C++ stack to JavaScript to rely more on the ecosystem. You can review our [GitHub here](https://github.com/LedgerHQ/ledger-live-common/tree/master/src/families/bitcoin)
+- The [Bitcoin app](https://github.com/LedgerHQ/app-bitcoin-new) has been reworked in order to support new use cases including Taproot. A dedicated blogpost will be done soon.
 
 **Now in Ledger Live, it’s possible to:**
 - Send to a Taproot address
 - Create a Taproot account
 - Receive on a Taproot account
 - Send Bitcoin from the Taproot address
+
+<br />
+<center>
+  <figure class="image">
+    <img src="{{ site.baseurl }}/assets/taproot/live-support.png">
+    <br/><br/>
+  </figure>
+</center>
+<br />
+
 
 To be more precise Ledger initial support allows to send to any Taproot address while account implementation is focused on single-key BIP-86 compliant accounts. More enhanced support will follow.
 
